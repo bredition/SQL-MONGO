@@ -79,7 +79,7 @@ colecao.delete_one({"nome": "Bruno"})
 
 # Deletar vários
 colecao.delete_many({"cidade": "Belo Horizonte"})
-6. 🧼 Limpando a Coleção
+# 6. 🧼 Limpando a Coleção
 python
 Copiar
 Editar
@@ -96,7 +96,7 @@ Copiar
 Editar
 for user in colecao.find({}, {"_id": 0, "nome": 1}):
     print(user)
-✅ Conclusão
+# ✅ Conclusão
 Agora você tem uma base sólida para:
 
 Criar, ler, atualizar e deletar dados (CRUD)
@@ -116,7 +116,7 @@ junto tudo
 O ChatGPT disse:
 Perfeito! Aqui está um script completo e comentado, com todas as etapas básicas de manipulação de dados com Python no MongoDB usando pymongo. Basta copiar e rodar no seu ambiente.
 
-✅ Script Completo – Manipulação de Dados com MongoDB e Python
+# ✅ Script Completo – Manipulação de Dados com MongoDB e Python
 python
 Copiar
 Editar
@@ -278,7 +278,7 @@ Editar
 {'_id': ..., 'nome': 'Ana', 'idade': 30, 'cidade': 'São Paulo'}
 ...
 
-✅ Operações concluídas.
+# ✅ Operações concluídas.
 Se quiser, posso te ajudar a:
 
 Instalar o Python
@@ -297,7 +297,7 @@ executar pelo terminal
 O ChatGPT disse:
 Perfeito! Vou te mostrar como executar um script Python pelo terminal passo a passo, de forma simples:
 
-✅ Etapas para Executar um Arquivo Python no Terminal
+# ✅ Etapas para Executar um Arquivo Python no Terminal
 🔹 Passo 1: Abrir o Terminal
 Windows: pressione Win + R, digite cmd e pressione Enter.
 
@@ -350,7 +350,7 @@ Copiar
 Editar
 where python     # Windows
 which python3    # macOS/Linux
-✅ Resultado Esperado
+# ✅ Resultado Esperado
 Se tudo estiver certo, o terminal mostrará os dados sendo inseridos, consultados e atualizados, como:
 
 lua
@@ -360,7 +360,7 @@ Editar
 {'_id': ObjectId(...), 'nome': 'Ana', 'idade': 30, 'cidade': 'São Paulo'}
 ...
 
-✅ Operações concluídas.
+# ✅ Operações concluídas.
 Se quiser, posso te ajudar agora mesmo com o erro que aparecer caso algo não funcione. É só colar aqui!
 
 
@@ -373,7 +373,7 @@ Claro! Aqui está um guia passo a passo para instalar o MongoDB no Visual Studio
 
 🚀 Como Instalar e Usar o MongoDB com VS Code
 🔹 1. Instale o MongoDB no seu sistema (Windows, Linux ou macOS)
-✅ Opção 1: Instalar o MongoDB localmente
+# ✅ Opção 1: Instalar o MongoDB localmente
 Acesse: https://www.mongodb.com/try/download/community
 
 Escolha seu sistema operacional
@@ -384,7 +384,7 @@ Durante a instalação, marque a opção para instalar o MongoDB Compass (útil 
 
 Após instalar, o MongoDB deve rodar automaticamente como um serviço local em mongodb://localhost:27017
 
-✅ Opção 2: Usar MongoDB Atlas (nuvem, gratuito)
+# ✅ Opção 2: Usar MongoDB Atlas (nuvem, gratuito)
 Vá para: https://www.mongodb.com/cloud/atlas/register
 
 Crie um cluster gratuito
@@ -431,7 +431,7 @@ bash
 Copiar
 Editar
 python mongo_tutorial.py
-✅ Pronto!
+# ✅ Pronto!
 Você agora está com:
 
 MongoDB rodando (local ou Atlas)
@@ -553,7 +553,7 @@ O serviço do MongoDB está rodando? (no local, precisa estar ativo)
 
 Você já instalou o pacote pymongo?
 
-✅ Verificações rápidas que você pode fazer:
+# ✅ Verificações rápidas que você pode fazer:
 🔹 Verificar se o MongoDB está rodando (LOCAL)
 Windows
 Abra o terminal (cmd) e digite:
